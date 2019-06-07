@@ -10,13 +10,11 @@
  *
  */
 
-void printBits(unsigned int num);
 unsigned setbits(unsigned x, int p, int n, unsigned y);
 
 main()
 {
-    int first = 74;
-    printf("%d", setbits(152, 4, 3, 229));
+    printf("%u", setbits(152, 4, 3, 229));
 }
 
 unsigned setbits(unsigned x, int p, int n, unsigned y)
